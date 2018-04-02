@@ -1,0 +1,6 @@
+https://respbot.glitch.me
+EAADKk4Dpt30BAJLTWGf75yEGMhIJmqtcEfmTZCWtErtZACfPK4p9hRZBspQLTEZAj0dvwZC93ZAD45Teak3qRtPdLuwv9sG86Ui8s3JBB5U51QDWZB8Nl8ynYIV9Y4kySvaZCI7ZB2bmtXYIet5BbhZCv4BNEGDDSGJF60Xb152XZBQ1wZDZD
+
+curl -X GET "https://respbot.glitch.me/webhook?hub.verify_token=EAADKk4Dpt30BAJLTWGf75yEGMhIJmqtcEfmTZCWtErtZACfPK4p9hRZBspQLTEZAj0dvwZC93ZAD45Teak3qRtPdLuwv9sG86Ui8s3JBB5U51QDWZB8Nl8ynYIV9Y4kySvaZCI7ZB2bmtXYIet5BbhZCv4BNEGDDSGJF60Xb152XZBQ1wZDZD&hub.challenge=CHALLENGE_ACCEPTED&hub.mode=subscribe"
+
+curl -H "Content-Type: application/json" -X POST "https://respbot.glitch.me/webhook" -d '{"object": "page", "entry": [{"messaging": [{"message": "TEST_MESSAGE"}]}]}'
