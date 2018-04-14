@@ -1,0 +1,4 @@
+.*test.*=Hi, I'm Response Bot, you're virtual assistant
+.*address.*=123 Any Street, Anywhere USA 12345
+.*phone.*=555-555-5555
+.*hours.*=Monday-Saturday 7 AM - 9 PM, Sunday 11 AM - 7 PM
