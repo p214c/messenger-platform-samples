@@ -1,7 +1,7 @@
 {
-  "name": "respbot",
-  "version": "0.0.9",
-  "description": "Messenger Response Bot",
+  "name": "messenger-get-started",
+  "version": "1.0.0",
+  "description": "Get started example for Messenger Platform",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/p214c/respbot.git"
+    "url": "https://github.com/fbsamples/messenger-platform-samples.git"
   },
-  "author": "Paul Cesario",
-  "license": "(Apache-2.0)",
+  "author": "Facebook",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.0",
     "config": "^1.20.4",
